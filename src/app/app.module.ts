@@ -17,6 +17,8 @@ import { TusuComponent } from './tusu/tusu.component';
 import { TsuComponent } from './tsu/tsu.component';
 import { TusComponent } from './tus/tus.component';
 import { TsComponent } from './ts/ts.component';
+import { WhiteboxComponent } from './whitebox/whitebox.component';
+import { BlackboxComponent } from './blackbox/blackbox.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +37,9 @@ import { TsComponent } from './ts/ts.component';
     TusuComponent,
     TsuComponent,
     TusComponent,
-    TsComponent
+    TsComponent,
+    WhiteboxComponent,
+    BlackboxComponent
   ],
   imports: [
     BrowserModule
