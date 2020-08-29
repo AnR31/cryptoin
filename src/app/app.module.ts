@@ -13,6 +13,10 @@ import { Comp0Component } from './comp0/comp0.component';
 import { Comp7Component } from './comp7/comp7.component';
 import { Comp8Component } from './comp8/comp8.component';
 import { Comp9Component } from './comp9/comp9.component';
+import { TusuComponent } from './tusu/tusu.component';
+import { TsuComponent } from './tsu/tsu.component';
+import { TusComponent } from './tus/tus.component';
+import { TsComponent } from './ts/ts.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +31,11 @@ import { Comp9Component } from './comp9/comp9.component';
     Comp0Component,
     Comp7Component,
     Comp8Component,
-    Comp9Component
+    Comp9Component,
+    TusuComponent,
+    TsuComponent,
+    TusComponent,
+    TsComponent
   ],
   imports: [
     BrowserModule
