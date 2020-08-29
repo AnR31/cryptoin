@@ -2,31 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  //templateUrl: './app.component.html',
-  template: `<button (click)="click()">click-to-hide</button>
-    <table>
-      <tr>
-        <th>Colors</th>
-      </tr>
-      <tr>
-        <td>{{ red }}</td>
-      </tr>
-      <tr>
-        <td>{{ yellow }}</td>
-      </tr>
-      <tr>
-        <td>{{ green }}</td>
-      </tr>
-      <tr>
-        <td [textContent]="blue">blue</td>
-      </tr>
-      <tr>
-        <td [textContent]="indigo">indigo</td>
-      </tr>
-      <tr>
-        <td [textContent]="violet">violet</td>
-      </tr>
-    </table>`,
+  templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
